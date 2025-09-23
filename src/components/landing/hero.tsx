@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CreditCard, ShieldCheck, Truck, BadgePercent } from 'lucide-react';
 
 const Hero = () => {
-  const productBottle = PlaceHolderImages.find(p => p.id === 'product-bottle');
 
   const badges = [
     { icon: <CreditCard />, text: 'PARCELAMENTO', label: 'EM ATÉ 12X' },
@@ -48,17 +46,17 @@ const Hero = () => {
           </div>
           <div className="relative flex h-full min-h-[400px] items-center justify-center md:min-h-[500px]">
             <div className="absolute h-80 w-80 rounded-full bg-gray-900/50 blur-3xl md:h-[450px] md:w-[450px]" />
-            {productBottle && (
+            
               <Image
-                src={productBottle.imageUrl}
-                alt={productBottle.description}
+                src="/width_1080-6.png"
+                alt="Main product bottle of Forever Aloe Vera Gel"
                 width={500}
                 height={600}
                 priority
-                data-ai-hint={productBottle.imageHint}
+                data-ai-hint="aloe vera bottle"
                 className="z-10 object-contain drop-shadow-2xl"
               />
-            )}
+            
           </div>
         </div>
       </div>
