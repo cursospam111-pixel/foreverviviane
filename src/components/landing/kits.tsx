@@ -16,7 +16,7 @@ const kits = [
   },
   {
     id: 'kit-2-bottles',
-    imageUrl: PlaceHolderImages.find((p) => p.id === 'kit-2-bottles')?.imageUrl,
+    imageUrl: 'https://i.imgur.com/ZY979sI.png',
     title: 'Leve 2 Litros',
     description: 'Tratamento para 2 meses com desconto especial.',
     price: '269,00',
