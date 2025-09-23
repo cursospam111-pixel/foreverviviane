@@ -13,6 +13,7 @@ import WhyChoose from '@/components/landing/why-choose';
 import Faq from '@/components/landing/faq';
 import QualitySeals from '@/components/landing/quality-seals';
 import Footer from '@/components/landing/footer';
+import WhatsAppButton from '@/components/landing/whatsapp-button';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <QualitySeals />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
