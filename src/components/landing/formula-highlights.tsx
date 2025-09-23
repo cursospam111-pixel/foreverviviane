@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button';
 
 const highlights = [
-  { number: '93%', text: 'Menos Gordura Corporal' },
-  { number: '87%', text: 'Menos Flacidez na Pele' },
-  { number: '91%', text: 'Menos Inchaço e Retenção' },
+  { number: '99,7%', text: 'Puro Gel de Aloe Vera' },
+  { number: '100%', text: 'Processado Asepticamente' },
+  { number: '0%', text: 'Adição de Conservantes' },
 ];
 
 const FormulaHighlights = () => {
@@ -19,7 +19,7 @@ const FormulaHighlights = () => {
           ))}
         </div>
         <p className="mx-auto mt-8 max-w-2xl text-muted-foreground">
-          ...e muito mais, para uma transformação completa e um bem-estar incomparável.
+          ...e muito mais, para uma vida mais saudável e um bem-estar incomparável.
         </p>
         <Button variant="link" className="mt-4 text-lg text-primary" asChild>
           <a href="#kits">Quero todos os benefícios</a>

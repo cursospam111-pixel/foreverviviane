@@ -13,19 +13,19 @@ import { useToast } from "@/hooks/use-toast";
 
 const ingredients = [
   {
-    id: 'ingredient-orange',
-    name: 'Laranja Moro',
-    description: 'Um poderoso antioxidante que auxilia na redução de gordura abdominal.',
+    id: 'ingredient-aloe',
+    name: 'Puro Gel de Aloe Vera',
+    description: 'O principal componente, conhecido por suas propriedades digestivas e nutritivas.',
   },
   {
-    id: 'ingredient-psyllium',
-    name: 'Psyllium',
-    description: 'Fibra natural que promove saciedade e melhora o trânsito intestinal.',
+    id: 'ingredient-vitamin-c',
+    name: 'Vitamina C',
+    description: 'Um poderoso antioxidante que ajuda a proteger as células e a apoiar o sistema imunológico.',
   },
   {
-    id: 'ingredient-collagen',
-    name: 'Colágeno',
-    description: 'Melhora a firmeza da pele, prevenindo a flacidez durante o emagrecimento.',
+    id: 'ingredient-citric-acid',
+    name: 'Ácido Cítrico',
+    description: 'Regulador de acidez natural que ajuda a preservar a frescura do gel.',
   },
 ];
 
@@ -60,7 +60,7 @@ const Ingredients = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            O segredo da cápsula mais <span className="text-primary">queridinha e poderosa</span> do Brasil
+            O segredo do suco de Aloe Vera mais <span className="text-primary">puro e poderoso</span> do mundo
           </h2>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -98,7 +98,7 @@ const Ingredients = () => {
             {[...Array(5)].map((_, i) => <Star key={i} className="h-6 w-6 fill-current" />)}
           </div>
           <p className="text-lg font-bold text-white">
-            4,8/5 <span className="font-light text-muted-foreground">| Mais de 100.000 clientes satisfeitos</span>
+            4,9/5 <span className="font-light text-muted-foreground">| Milhares de clientes satisfeitos</span>
           </p>
         </div>
       </div>

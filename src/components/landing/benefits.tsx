@@ -1,21 +1,21 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Gem, TrendingUp, Waves } from 'lucide-react';
+import { HeartPulse, ShieldCheck, Sparkles } from 'lucide-react';
 
 const benefits = [
   {
-    icon: <Gem className="h-10 w-10 text-primary" />,
-    title: 'Sem Estrias e Celulite',
-    description: 'Os ativos deste gel ajudam a reduzir estrias e celulite de forma contínua com o uso.',
+    icon: <Sparkles className="h-10 w-10 text-primary" />,
+    title: 'Apoio à Digestão',
+    description: 'O Aloe Vera ajuda a manter um sistema digestivo saudável e a absorção de nutrientes.',
   },
   {
-    icon: <TrendingUp className="h-10 w-10 text-primary" />,
-    title: 'Efeito Lift',
-    description: 'Hidrata e renova a pele, melhorando a firmeza e o aspecto geral.',
+    icon: <HeartPulse className="h-10 w-10 text-primary" />,
+    title: 'Fonte de Nutrientes',
+    description: 'Rico em vitaminas, minerais e aminoácidos que promovem saúde e bem-estar geral.',
   },
   {
-    icon: <Waves className="h-10 w-10 text-primary" />,
-    title: 'Regula o Intestino',
-    description: 'Auxilia o funcionamento intestinal e a sensação de bem-estar.',
+    icon: <ShieldCheck className="h-10 w-10 text-primary" />,
+    title: 'Suporte Imunológico',
+    description: 'Fortalece o sistema imunológico com seus compostos naturais.',
   },
 ];
 
@@ -25,7 +25,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            Alguns benefícios do novo Lift Detox Black que vão{' '}
+            Alguns benefícios do Forever Aloe Vera Gel que vão{' '}
             <span className="text-primary">surpreender</span> você!
           </h2>
         </div>

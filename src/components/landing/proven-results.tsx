@@ -2,20 +2,20 @@ import { CheckCircle } from 'lucide-react';
 
 const results = [
   {
-    title: 'Metabolismo Acelerado',
-    description: 'Promove um sistema digestivo saudável e queima calorias de forma mais eficiente.',
+    title: 'Sistema Digestivo Saudável',
+    description: 'Promove a saúde gastrointestinal e ajuda na absorção de nutrientes.',
   },
   {
     title: 'Mais Energia e Disposição',
     description: 'Rico em nutrientes que apoiam a vitalidade para as tarefas do dia a dia.',
   },
   {
-    title: 'Redução do Inchaço',
-    description: 'Ajuda o corpo a eliminar a retenção de líquidos, diminuindo o inchaço corporal.',
+    title: 'Fortalece a Imunidade',
+    description: 'Ajuda a fortalecer as defesas naturais do corpo.',
   },
     {
-    title: 'Inibição do Apetite',
-    description: 'Suas fibras promovem saciedade, ajudando a controlar a fome excessiva.',
+    title: 'Pele Mais Saudável',
+    description: 'A hidratação e os nutrientes do Aloe Vera contribuem para uma pele radiante.',
   },
 ];
 

@@ -13,13 +13,13 @@ const videoTestimonials = [
 const textTestimonials = [
   {
     id: 'testimonial-photo-1',
-    name: 'Juliana Paes',
-    comment: 'Perdi 8kg em um mês sem passar fome! O Lift Detox mudou minha vida e minha autoestima. Recomendo demais!',
+    name: 'Ana Silva',
+    comment: 'Minha digestão melhorou muito desde que comecei a tomar! Sinto-me com mais energia e bem-estar. Recomendo!',
   },
   {
     id: 'testimonial-photo-2',
-    name: 'Marcos Alves',
-    comment: 'Finalmente me livrei daquela gordurinha abdominal que me incomodava tanto. O produto cumpre o que promete!',
+    name: 'Carlos Pereira',
+    comment: 'O Forever Aloe Vera Gel é incrível! Notei uma grande diferença na minha saúde geral. Produto de alta qualidade.',
   },
 ];
 
@@ -29,7 +29,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            Confira alguns depoimentos <span className="text-primary">reais</span> das nossas clientes
+            Confira alguns depoimentos <span className="text-primary">reais</span> dos nossos clientes
           </h2>
         </div>
         

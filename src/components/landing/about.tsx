@@ -7,7 +7,7 @@ const About = () => {
             Sobre o <span className="text-primary">Produto</span>
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            O Lift Detox Black é desenvolvido com ingredientes 100% naturais e tecnologia de ponta, garantindo máxima pureza e qualidade reconhecida. É um produto natural, testado e aprovado, ideal para quem busca mais saúde, bem-estar e vitalidade no dia a dia, alcançando o corpo dos sonhos de forma segura.
+            O Forever Aloe Vera Gel é feito com o mais puro gel de Aloe Vera, com 99,7% de pureza. Sem adição de conservantes, é processado assepticamente para manter todos os benefícios da planta. Ideal para quem busca mais saúde, bem-estar e um sistema digestivo saudável.
           </p>
         </div>
       </div>

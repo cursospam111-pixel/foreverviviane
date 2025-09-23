@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Lift Detox Black',
-  description: 'A fórmula inovadora para o seu emagrecimento.',
+  title: 'Forever Aloe Vera Gel',
+  description: 'O mais puro suco de Aloe Vera.',
 };
 
 export default function RootLayout({

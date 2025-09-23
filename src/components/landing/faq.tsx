@@ -2,20 +2,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 const faqs = [
   {
-    question: 'Como devo usar o Lift Detox Black?',
-    answer: 'A recomendação é de 2 cápsulas ao dia, uma antes do almoço e outra antes do jantar. É importante consumir com bastante água.',
+    question: 'Como devo consumir o Forever Aloe Vera Gel?',
+    answer: 'A recomendação é de 50 a 100ml por dia, puro ou misturado com água ou suco. Agite bem antes de beber e refrigere após abrir.',
   },
   {
-    question: 'Lift Detox Black tem contra-indicações ou efeitos colaterais?',
-    answer: 'Por ser um produto com ingredientes 100% naturais, não possui efeitos colaterais nem contra-indicações. Porém, gestantes, lactantes e menores de 18 anos não devem consumir sem orientação médica.',
+    question: 'Forever Aloe Vera Gel tem contra-indicações?',
+    answer: 'Por ser um produto natural, é seguro para a maioria das pessoas. No entanto, gestantes, lactantes e pessoas com condições médicas específicas devem consultar um profissional de saúde antes de consumir.',
   },
   {
-    question: 'Lift Detox Black é aprovado pela Anvisa?',
-    answer: 'Sim, o Lift Detox Black é um produto aprovado pela ANVISA e segue todos os padrões de qualidade exigidos, garantindo total segurança para o seu consumo.',
+    question: 'Forever Aloe Vera Gel é aprovado pelos órgãos de saúde?',
+    answer: 'Sim, o Forever Aloe Vera Gel segue todos os padrões de qualidade e regulamentações, garantindo um produto seguro e de alta qualidade para o seu consumo.',
   },
   {
-    question: 'Em quanto tempo terei resultados?',
-    answer: 'Os resultados variam de pessoa para pessoa, mas muitos de nossos clientes relatam sentir os primeiros efeitos já nas primeiras semanas de uso contínuo.',
+    question: 'Em quanto tempo verei os resultados?',
+    answer: 'Os resultados variam, mas muitos clientes relatam sentir mais bem-estar e melhora na digestão nas primeiras semanas de uso contínuo.',
   },
   {
     question: 'O site é seguro para comprar?',

@@ -19,17 +19,17 @@ const Hero = () => {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="z-10 flex flex-col items-center text-center md:items-start md:text-left">
             <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              Nova Fórmula <span className="text-primary">Mais Potente</span>
+              O Poder do <span className="text-primary">Puro Aloe Vera</span>
             </h1>
             <p className="mt-4 max-w-md text-lg text-muted-foreground md:text-xl">
-              Descubra o segredo para um emagrecimento rápido e saudável com Lift Detox Black.
+              Descubra o segredo para uma vida mais saudável com Forever Aloe Vera Gel.
             </p>
             <Button
               className="mt-8 rounded-xl bg-primary px-10 py-8 text-xl font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 hover:bg-[#e0b112] focus-visible:ring-white/50"
               size="lg"
               asChild
             >
-              <a href="#kits">QUERO MEU LIFT DETOX</a>
+              <a href="#kits">QUERO MEU ALOE VERA GEL</a>
             </Button>
             <div className="mt-12 grid w-full grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6">
               {badges.map((badge, index) => (

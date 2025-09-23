@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-4 py-8 md:flex-row md:px-6">
         <div className="flex items-center gap-2">
           <Leaf className="h-6 w-6 text-primary" />
-          <span className="font-bold text-white">Lift Detox Black</span>
+          <span className="font-bold text-white">Forever Aloe Vera Gel</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground md:gap-6">
           <a href="#" className="transition-colors hover:text-white">Termos de Uso</a>
@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="#" className="transition-colors hover:text-white">Contato</a>
         </nav>
         <p className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Lift Detox Black. Todos os direitos reservados.
+          © {new Date().getFullYear()} Forever Aloe Vera Gel. Todos os direitos reservados.
         </p>
       </div>
     </footer>

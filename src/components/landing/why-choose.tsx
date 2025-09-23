@@ -4,23 +4,23 @@ import { BadgeCheck, FlaskConical, Sparkles, ThumbsUp } from 'lucide-react';
 const differentials = [
   {
     icon: <BadgeCheck className="h-10 w-10 text-primary" />,
-    title: 'Fórmula Aprovada',
-    description: 'Composição 100% aprovada pela ANVISA, garantindo sua segurança e eficácia.',
+    title: 'Fórmula Pura',
+    description: '99,7% de gel de Aloe Vera puro, certificado pelo IASC.',
   },
   {
     icon: <Sparkles className="h-10 w-10 text-primary" />,
     title: 'Ingredientes Naturais',
-    description: 'Apenas ingredientes naturais e selecionados, sem pesticidas ou aditivos químicos.',
+    description: 'Livre de conservantes e feito com os melhores ingredientes naturais.',
   },
   {
     icon: <FlaskConical className="h-10 w-10 text-primary" />,
     title: 'Tecnologia Avançada',
-    description: 'Processo de extração e encapsulamento que preserva a máxima potência dos ativos.',
+    description: 'Processamento asséptico que mantém os nutrientes e a frescura do gel.',
   },
   {
     icon: <ThumbsUp className="h-10 w-10 text-primary" />,
     title: 'Resultados Comprovados',
-    description: 'Milhares de clientes satisfeitos em todo o Brasil com resultados reais e duradouros.',
+    description: 'Milhares de clientes satisfeitos em todo o mundo com resultados reais para a saúde.',
   },
 ];
 
@@ -30,10 +30,10 @@ const WhyChoose = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            Por que escolher o <span className="text-primary">Lift Detox Black</span>?
+            Por que escolher o <span className="text-primary">Forever Aloe Vera Gel</span>?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Descubra os diferenciais que tornam nossa fórmula a melhor escolha para sua saúde e emagrecimento.
+            Descubra os diferenciais que tornam nossa fórmula a melhor escolha para sua saúde e bem-estar.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">

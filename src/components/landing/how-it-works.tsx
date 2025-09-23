@@ -11,10 +11,10 @@ const HowItWorks = () => {
         <div className="items-center gap-12 md:grid md:grid-cols-2">
           <div className="mb-12 md:mb-0">
             <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-              Como <span className="text-primary">LIFT DETOX BLACK</span> te faz emagrecer?
+              Como <span className="text-primary">FOREVER ALOE VERA GEL</span> age no seu corpo?
             </h2>
             <p className="mt-4 max-w-xl text-lg text-muted-foreground">
-              Sua fórmula avançada atua diretamente na queima de gordura localizada, acelera o metabolismo e inibe o apetite. Os ingredientes naturais trabalham em sinergia para desintoxicar o corpo, resultando em uma perda de peso eficaz e duradoura.
+              Sua fórmula pura e rica em nutrientes atua diretamente no sistema digestivo, ajudando na absorção de nutrientes e promovendo um equilíbrio saudável. Os compostos naturais do Aloe Vera trabalham para fortalecer o sistema imunológico e aumentar a sua energia e vitalidade.
             </p>
             <Button
               className="mt-8 rounded-xl bg-primary px-8 py-6 text-lg font-bold text-primary-foreground shadow-lg transition-transform duration-300 hover:scale-105 hover:bg-[#e0b112]"

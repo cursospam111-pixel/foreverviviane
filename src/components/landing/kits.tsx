@@ -7,26 +7,26 @@ import { BadgeCheck, Gift, ShieldCheck, Truck } from 'lucide-react';
 const kits = [
   {
     id: 'kit-1-bottle',
-    title: 'Leve 1 Pote',
-    description: 'Experimente o poder do Lift Detox Black. Ideal para iniciantes.',
-    price: '115,00',
-    installments: '12x de R$ 9,58',
+    title: 'Leve 1 Litro',
+    description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
+    price: '139,00',
+    installments: '3x de R$ 46,33',
     bestValue: false,
   },
   {
     id: 'kit-2-bottles',
-    title: 'Leve 2 Potes',
+    title: 'Leve 2 Litros',
     description: 'Tratamento para 2 meses com desconto especial.',
-    price: '187,00',
-    installments: '12x de R$ 15,58',
+    price: '269,00',
+    installments: '5x de R$ 53,80',
     bestValue: true,
   },
   {
     id: 'kit-5-bottles',
-    title: 'Compre 3 Leve 5',
-    description: 'O melhor custo-benefício! Tratamento completo para resultados incríveis.',
-    price: '297,00',
-    installments: '12x de R$ 24,75',
+    title: 'Leve 3 Litros',
+    description: 'O melhor custo-benefício para um tratamento completo e resultados incríveis.',
+    price: '389,00',
+    installments: '6x de R$ 64,83',
     bestValue: false,
   },
 ];
@@ -35,7 +35,7 @@ const seals = [
     { icon: <ShieldCheck />, text: 'Compra Segura' },
     { icon: <BadgeCheck />, text: 'Satisfação Garantida' },
     { icon: <Gift />, text: 'Produto Original' },
-    { icon: <Truck />, text: 'Frete Grátis' },
+    { icon: <Truck />, text: 'Entrega Rápida' },
 ]
 
 const Kits = () => {
@@ -44,7 +44,7 @@ const Kits = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            Escolha o seu <span className="text-primary">KIT IDEAL</span> para o seu tratamento
+            Escolha o seu <span className="text-primary">KIT IDEAL</span> para o seu bem-estar
           </h2>
         </div>
 
