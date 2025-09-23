@@ -1,4 +1,3 @@
-import Header from '@/components/landing/header';
 import Hero from '@/components/landing/hero';
 import Benefits from '@/components/landing/benefits';
 import HowItWorks from '@/components/landing/how-it-works';
@@ -18,7 +17,6 @@ import Footer from '@/components/landing/footer';
 export default function Home() {
   return (
     <div className="bg-black text-white">
-      <Header />
       <main>
         <Hero />
         <Benefits />
