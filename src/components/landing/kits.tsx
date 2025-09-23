@@ -54,7 +54,7 @@ const Kits = () => {
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {kits.map((kit) => {
             return (
-              <Card key={kit.id} className={`relative flex flex-col rounded-2xl border-2 shadow-lg ${kit.bestValue ? 'border-primary' : 'border-border'} ${kit.id === 'kit-1-bottle' || kit.bestValue ? 'bg-gradient-to-t from-primary/20 to-black' : 'bg-black'}`}>
+              <Card key={kit.id} className={`relative flex flex-col rounded-2xl border-2 shadow-lg ${kit.bestValue ? 'border-primary' : 'border-border'} bg-gradient-to-t from-primary/20 to-black`}>
                 {kit.bestValue && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 transform rounded-full bg-primary px-4 py-1 text-sm font-bold text-primary-foreground">
                     MAIS VENDIDO
@@ -63,9 +63,7 @@ const Kits = () => {
                 <CardHeader className="relative items-center">
                   {kit.imageUrl && (
                     <div className="relative h-48 w-full">
-                      {(kit.id === 'kit-1-bottle' || kit.bestValue) && (
-                        <div className="absolute inset-0 m-auto h-32 w-32 rounded-full bg-primary/20 blur-2xl" />
-                      )}
+                      <div className="absolute inset-0 m-auto h-32 w-32 rounded-full bg-primary/20 blur-2xl" />
                       <Image
                         src={kit.imageUrl}
                         alt={kit.title}
