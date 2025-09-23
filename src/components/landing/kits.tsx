@@ -7,6 +7,7 @@ import { BadgeCheck, Gift, ShieldCheck, Truck } from 'lucide-react';
 const kits = [
   {
     id: 'kit-1-bottle',
+    imageUrl: 'https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png',
     title: 'Leve 1 Litro',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '155,00',
@@ -15,6 +16,7 @@ const kits = [
   },
   {
     id: 'kit-2-bottles',
+    imageUrl: PlaceHolderImages.find((p) => p.id === 'kit-2-bottles')?.imageUrl,
     title: 'Leve 2 Litros',
     description: 'Tratamento para 2 meses com desconto especial.',
     price: '269,00',
@@ -23,6 +25,7 @@ const kits = [
   },
   {
     id: 'kit-5-bottles',
+    imageUrl: PlaceHolderImages.find((p) => p.id === 'kit-5-bottles')?.imageUrl,
     title: 'Leve 3 Litros',
     description: 'O melhor custo-benefício para um tratamento completo e resultados incríveis.',
     price: '389,00',
@@ -50,7 +53,6 @@ const Kits = () => {
 
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {kits.map((kit) => {
-            const image = PlaceHolderImages.find((p) => p.id === kit.id);
             return (
               <Card key={kit.id} className={`relative flex flex-col rounded-2xl border-2 bg-black shadow-lg ${kit.bestValue ? 'border-primary' : 'border-border'}`}>
                 {kit.bestValue && (
@@ -59,13 +61,12 @@ const Kits = () => {
                   </div>
                 )}
                 <CardHeader className="items-center">
-                  {image && (
+                  {kit.imageUrl && (
                     <Image
-                      src={image.imageUrl}
+                      src={kit.imageUrl}
                       alt={kit.title}
                       width={250}
                       height={250}
-                      data-ai-hint={image.imageHint}
                       className="h-48 w-auto object-contain"
                     />
                   )}
