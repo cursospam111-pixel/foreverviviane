@@ -50,8 +50,8 @@ const Hero = () => {
               <Image
                 src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
                 alt="Main product bottle of Forever Aloe Vera Gel"
-                width={500}
-                height={600}
+                width={400}
+                height={480}
                 priority
                 data-ai-hint="aloe vera bottle"
                 className="z-10 object-contain drop-shadow-2xl"
