@@ -60,15 +60,20 @@ const Kits = () => {
                     MAIS VENDIDO
                   </div>
                 )}
-                <CardHeader className="items-center">
+                <CardHeader className="relative items-center">
                   {kit.imageUrl && (
-                    <Image
-                      src={kit.imageUrl}
-                      alt={kit.title}
-                      width={250}
-                      height={250}
-                      className="h-48 w-auto object-contain"
-                    />
+                    <div className="relative h-48 w-full">
+                      {kit.id === 'kit-1-bottle' && (
+                        <div className="absolute inset-0 m-auto h-32 w-32 rounded-full bg-primary/70 blur-3xl" />
+                      )}
+                      <Image
+                        src={kit.imageUrl}
+                        alt={kit.title}
+                        width={250}
+                        height={250}
+                        className="relative z-10 h-full w-full object-contain"
+                      />
+                    </div>
                   )}
                   <CardTitle className="pt-4 text-center text-2xl font-bold">{kit.title}</CardTitle>
                 </CardHeader>
