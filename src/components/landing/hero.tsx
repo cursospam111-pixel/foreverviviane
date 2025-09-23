@@ -1,0 +1,66 @@
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { CreditCard, ShieldCheck, Truck, BadgePercent } from 'lucide-react';
+
+const Hero = () => {
+  const productBottle = PlaceHolderImages.find(p => p.id === 'product-bottle');
+
+  const badges = [
+    { icon: <CreditCard />, text: 'PARCELAMENTO', label: 'EM ATÉ 12X' },
+    { icon: <BadgePercent />, text: 'PAGAMENTO EM PIX', label: 'COM DESCONTO' },
+    { icon: <ShieldCheck />, text: 'COMPRA SEGURA', label: 'E COM GARANTIA' },
+    { icon: <Truck />, text: 'FRETE GRÁTIS', label: 'PARA TODO O BRASIL' },
+  ];
+
+  return (
+    <section className="relative overflow-hidden bg-black pt-12 pb-20 md:pt-24">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="grid items-center gap-12 md:grid-cols-2">
+          <div className="z-10 flex flex-col items-center text-center md:items-start md:text-left">
+            <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
+              Nova Fórmula <span className="text-primary">Mais Potente</span>
+            </h1>
+            <p className="mt-4 max-w-md text-lg text-muted-foreground md:text-xl">
+              Descubra o segredo para um emagrecimento rápido e saudável com Lift Detox Black.
+            </p>
+            <Button
+              className="mt-8 rounded-xl bg-primary px-10 py-8 text-xl font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 hover:bg-[#e0b112] focus-visible:ring-white/50"
+              size="lg"
+              asChild
+            >
+              <a href="#kits">QUERO MEU LIFT DETOX</a>
+            </Button>
+            <div className="mt-12 grid w-full grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6">
+              {badges.map((badge, index) => (
+                <div key={index} className="flex items-center gap-2">
+                  <div className="text-primary">{badge.icon}</div>
+                  <div className="flex flex-col">
+                    <span className="text-xs font-bold text-primary">{badge.label}</span>
+                    <span className="text-xs text-white">{badge.text}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative flex h-full min-h-[400px] items-center justify-center md:min-h-[500px]">
+            <div className="absolute h-80 w-80 rounded-full bg-gray-900/50 blur-3xl md:h-[450px] md:w-[450px]" />
+            {productBottle && (
+              <Image
+                src={productBottle.imageUrl}
+                alt={productBottle.description}
+                width={500}
+                height={600}
+                priority
+                data-ai-hint={productBottle.imageHint}
+                className="z-10 object-contain drop-shadow-2xl"
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
