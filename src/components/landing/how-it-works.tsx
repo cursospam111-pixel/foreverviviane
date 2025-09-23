@@ -1,9 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const HowItWorks = () => {
-    const productImage = PlaceHolderImages.find(p => p.id === 'product-with-tape');
 
   return (
     <section className="bg-black py-20 sm:py-28">
@@ -25,16 +23,16 @@ const HowItWorks = () => {
             </Button>
           </div>
           <div className="flex items-center justify-center">
-             {productImage && (
+             
               <Image
-                src={productImage.imageUrl}
-                alt={productImage.description}
+                src="https://i.imgur.com/SRkA1Or.png"
+                alt="Product bottle with aloe vera leaf"
                 width={600}
                 height={500}
-                data-ai-hint={productImage.imageHint}
+                data-ai-hint="aloe vera product"
                 className="rounded-2xl object-cover shadow-2xl"
               />
-            )}
+            
           </div>
         </div>
       </div>
