@@ -15,21 +15,21 @@ const Hero = () => {
     <section className="relative overflow-hidden bg-black pt-12 pb-20 md:pt-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="relative flex h-full min-h-[400px] items-center justify-center md:order-2 md:min-h-[500px]">
+          <div className="relative order-1 flex h-full min-h-[350px] items-center justify-center md:order-2 md:min-h-[500px]">
             <div className="absolute h-80 w-80 rounded-full bg-primary/20 blur-3xl md:h-[450px] md:w-[450px]" />
             
               <Image
                 src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
                 alt="Main product bottle of Forever Aloe Vera Gel"
-                width={400}
-                height={480}
+                width={300}
+                height={380}
                 priority
                 data-ai-hint="aloe vera bottle"
-                className="z-10 object-contain drop-shadow-2xl"
+                className="z-10 object-contain drop-shadow-2xl md:h-[430px] md:w-[350px]"
               />
             
           </div>
-          <div className="z-10 flex flex-col items-center text-center md:order-1 md:items-start md:text-left">
+          <div className="z-10 order-2 flex flex-col items-center text-center md:order-1 md:items-start md:text-left">
             <div className="mb-4 inline-block rounded-full bg-primary/20 px-4 py-1.5 text-sm font-bold text-primary">
               Forever Aloe Vera Gel - A sua melhor escolha
             </div>
