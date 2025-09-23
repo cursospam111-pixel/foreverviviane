@@ -33,6 +33,12 @@ const nextConfig: NextConfig = {
         hostname: 'digitalvante.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

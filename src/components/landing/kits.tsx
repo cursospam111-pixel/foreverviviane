@@ -7,7 +7,7 @@ import { BadgeCheck, Gift, ShieldCheck, Truck } from 'lucide-react';
 const kits = [
   {
     id: 'kit-1-bottle',
-    imageUrl: 'https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png',
+    imageUrl: 'https://i.imgur.com/wf7ICc3.png',
     title: 'Leve 1 Litro',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '155,00',
