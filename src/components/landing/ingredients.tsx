@@ -68,7 +68,7 @@ const Ingredients = () => {
             const image = PlaceHolderImages.find((p) => p.id === ingredient.id);
             return (
               <Card key={ingredient.id} className="flex flex-col items-center rounded-2xl border-border bg-black p-6 text-center shadow-lg">
-                <CardHeader>
+                <CardHeader className="items-center">
                   {image && (
                     <Image
                       src={image.imageUrl}
