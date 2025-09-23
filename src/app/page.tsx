@@ -1,4 +1,5 @@
 import Hero from '@/components/landing/hero';
+import TextCarousel from '@/components/landing/text-carousel';
 import Benefits from '@/components/landing/benefits';
 import HowItWorks from '@/components/landing/how-it-works';
 import Ingredients from '@/components/landing/ingredients';
@@ -20,6 +21,7 @@ export default function Home() {
     <div className="bg-black text-white">
       <main>
         <Hero />
+        <TextCarousel />
         <Benefits />
         <HowItWorks />
         <Ingredients />
