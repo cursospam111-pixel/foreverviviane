@@ -25,7 +25,7 @@ const kits = [
   },
   {
     id: 'kit-5-bottles',
-    imageUrl: PlaceHolderImages.find((p) => p.id === 'kit-5-bottles')?.imageUrl,
+    imageUrl: 'https://i.imgur.com/A2x9jhv.png',
     title: 'Leve 3 Litros',
     description: 'O melhor custo-benefício para um tratamento completo e resultados incríveis.',
     price: '389,00',
@@ -64,7 +64,7 @@ const Kits = () => {
                   {kit.imageUrl && (
                     <div className="relative h-48 w-full">
                       {(kit.id === 'kit-1-bottle' || kit.bestValue) && (
-                        <div className="absolute inset-0 m-auto h-32 w-32 rounded-full bg-primary/20 blur-3xl" />
+                        <div className="absolute inset-0 m-auto h-32 w-32 rounded-full bg-primary/20 blur-2xl" />
                       )}
                       <Image
                         src={kit.imageUrl}
