@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="z-10 flex flex-col items-center text-center md:items-start md:text-left">
             <div className="mb-4 inline-block rounded-full bg-primary/20 px-4 py-1.5 text-sm font-bold text-primary">
-              Forever Aloe Vera Gel
+              Forever Aloe Vera Gel - A sua melhor escolha
             </div>
             <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
               O Poder do <span className="text-primary">Puro Aloe Vera</span>
