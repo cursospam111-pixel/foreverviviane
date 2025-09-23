@@ -48,7 +48,7 @@ const Hero = () => {
             <div className="absolute h-80 w-80 rounded-full bg-gray-900/50 blur-3xl md:h-[450px] md:w-[450px]" />
             
               <Image
-                src="/width_1080-6.png"
+                src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
                 alt="Main product bottle of Forever Aloe Vera Gel"
                 width={500}
                 height={600}
