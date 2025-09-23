@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative order-1 flex h-full min-h-[350px] items-center justify-center md:order-2 md:min-h-[500px]">
-            <div className="absolute h-80 w-80 rounded-full bg-primary/50 blur-3xl md:h-[450px] md:w-[450px]" />
+            <div className="absolute h-80 w-80 rounded-full bg-primary/50 blur-3xl md:bg-primary/30 md:h-[450px] md:w-[450px]" />
             
               <Image
                 src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
@@ -46,13 +46,13 @@ const Hero = () => {
             >
               <a href="#kits">QUERO MEU ALOE VERA GEL</a>
             </Button>
-            <div className="mt-12 grid w-full grid-cols-2 gap-4 px-4 sm:grid-cols-4 sm:gap-6 sm:px-0">
+            <div className="mt-12 grid w-full grid-cols-2 gap-8 px-8 sm:grid-cols-4 sm:gap-6 md:px-0">
               {badges.map((badge, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <div className="text-primary">{badge.icon}</div>
                   <div className="flex flex-col">
                     <span className="text-sm font-bold text-primary sm:text-xs">{badge.label}</span>
-                    <span className="text-sm text-white sm:text-xs">{badge.text}</span>
+                    <span className="text-base text-white sm:text-xs">{badge.text}</span>
                   </div>
                 </div>
               ))}
