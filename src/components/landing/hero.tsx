@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative flex h-full min-h-[400px] items-center justify-center md:min-h-[500px]">
-            <div className="absolute h-80 w-80 rounded-full bg-gray-900/50 blur-3xl md:h-[450px] md:w-[450px]" />
+            <div className="absolute h-80 w-80 rounded-full bg-primary/20 blur-3xl md:h-[450px] md:w-[450px]" />
             
               <Image
                 src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
