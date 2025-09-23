@@ -6,7 +6,7 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-import { Star } from "lucide-react";
+import { Leaf } from "lucide-react";
 
 const messages = [
   "FRETE GRÁTIS PARA TODO O BRASIL",
@@ -38,7 +38,7 @@ const TextCarousel = () => {
                 <p className="font-bold text-primary-foreground text-center font-headline whitespace-nowrap">
                   {message}
                 </p>
-                {index < messages.length -1 && <Star className="h-5 w-5 text-primary-foreground" />}
+                {index < messages.length -1 && <Leaf className="h-5 w-5 text-primary-foreground" />}
               </div>
             </CarouselItem>
           ))}
