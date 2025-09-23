@@ -9,8 +9,8 @@ const kits = [
     id: 'kit-1-bottle',
     title: 'Leve 1 Litro',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
-    price: '139,00',
-    installments: '3x de R$ 46,33',
+    price: '155,00',
+    installments: '3x de R$ 51,67',
     bestValue: false,
   },
   {
@@ -54,7 +54,7 @@ const Kits = () => {
             return (
               <Card key={kit.id} className={`relative flex flex-col rounded-2xl border-2 bg-black shadow-lg ${kit.bestValue ? 'border-primary' : 'border-border'}`}>
                 {kit.bestValue && (
-                  <div className="absolute -top-4 right-4 rounded-full bg-primary px-4 py-1 text-sm font-bold text-primary-foreground">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 transform rounded-full bg-primary px-4 py-1 text-sm font-bold text-primary-foreground">
                     MAIS VENDIDO
                   </div>
                 )}
