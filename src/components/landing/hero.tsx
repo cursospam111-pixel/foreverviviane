@@ -28,7 +28,7 @@ const Hero = () => {
               Descubra o segredo para uma vida mais saudável com Forever Aloe Vera Gel.
             </p>
             <Button
-              className="mt-8 rounded-full bg-primary px-10 py-8 text-xl font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 hover:bg-primary/90 focus-visible:ring-white/50"
+              className="mt-8 rounded-full animated-gradient px-10 py-8 text-xl font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50"
               size="lg"
               asChild
             >
