@@ -38,7 +38,7 @@ const TextCarousel = () => {
                 <p className="font-bold text-primary-foreground text-center font-headline whitespace-nowrap">
                   {message}
                 </p>
-                {index < messages.length -1 && <Star className="h-5 w-5 text-primary-foreground fill-primary-foreground" />}
+                {index < messages.length -1 && <Star className="h-5 w-5 text-primary-foreground" />}
               </div>
             </CarouselItem>
           ))}
