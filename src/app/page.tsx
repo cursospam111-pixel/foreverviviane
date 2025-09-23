@@ -3,6 +3,7 @@ import TextCarousel from '@/components/landing/text-carousel';
 import Benefits from '@/components/landing/benefits';
 import WhyForever from '@/components/landing/why-forever';
 import HowItWorks from '@/components/landing/how-it-works';
+import HowToBuyVideo from '@/components/landing/how-to-buy-video';
 import Ingredients from '@/components/landing/ingredients';
 import Kits from '@/components/landing/kits';
 import HowToBuy from '@/components/landing/how-to-buy';
@@ -25,6 +26,7 @@ export default function Home() {
         <Benefits />
         <WhyForever />
         <HowItWorks />
+        <HowToBuyVideo />
         <Ingredients />
         <Kits />
         <HowToBuy />
