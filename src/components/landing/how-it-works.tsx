@@ -25,7 +25,7 @@ const HowItWorks = () => {
           <div className="flex items-center justify-center">
              
               <Image
-                src="https://imgur.com/onbrMxg"
+                src="https://imgur.com/onbrMxg.png"
                 alt="Product bottle with aloe vera leaf"
                 width={600}
                 height={500}
