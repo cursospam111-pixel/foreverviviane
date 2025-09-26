@@ -5,13 +5,14 @@ const ProductDetails = () => {
     <section className="bg-black py-20 sm:py-28">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="flex items-center justify-center">
+          <div className="relative flex items-center justify-center">
+            <div className="absolute h-80 w-80 rounded-full bg-primary/30 blur-3xl" />
             <Image
               src="https://imgur.com/XfS6lp4.png"
               alt="Garrafa de Forever Aloe Vera Gel com um copo"
               width={600}
               height={500}
-              className="rounded-2xl object-cover shadow-2xl"
+              className="relative z-10 rounded-2xl object-cover shadow-2xl"
               data-ai-hint="aloe vera drink"
             />
           </div>
