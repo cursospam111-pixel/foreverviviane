@@ -16,11 +16,11 @@ const ProductDetails = () => {
               data-ai-hint="aloe vera drink"
             />
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
               Bebida feita do <span className="text-primary">puro gel de Aloe</span>
             </h2>
-            <p className="mt-4 max-w-xl text-lg text-muted-foreground">
+            <p className="mt-4 max-w-xl text-lg text-muted-foreground mx-auto md:mx-0">
               Conforme indicado pela literatura científica, o suco é composto por fibras, vitaminas, aminoácidos, minerais e enzimas essenciais para o metabolismo diário.
             </p>
             <div className="mt-6 space-y-4">
