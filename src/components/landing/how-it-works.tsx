@@ -4,8 +4,14 @@ import { Button } from '@/components/ui/button';
 const HowItWorks = () => {
 
   return (
-    <section className="bg-black py-20 sm:py-28">
-      <div className="container mx-auto px-4 md:px-6">
+    <section className="relative bg-black py-20 sm:py-28">
+        <Image
+        src="https://images.unsplash.com/photo-1596162327598-e42a983b9c24?q=80&w=2070&auto=format&fit=crop"
+        alt="Aloe vera background"
+        fill
+        className="absolute inset-0 object-cover opacity-5 filter grayscale"
+      />
+      <div className="container relative mx-auto px-4 md:px-6">
         <div className="items-center gap-12 md:grid md:grid-cols-2">
           <div className="mb-12 md:mb-0">
             <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
