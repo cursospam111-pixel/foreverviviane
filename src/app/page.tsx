@@ -4,7 +4,6 @@ import Benefits from '@/components/landing/benefits';
 import WhyForever from '@/components/landing/why-forever';
 import HowItWorks from '@/components/landing/how-it-works';
 import HowToBuyVideo from '@/components/landing/how-to-buy-video';
-import Ingredients from '@/components/landing/ingredients';
 import Kits from '@/components/landing/kits';
 import HowToBuy from '@/components/landing/how-to-buy';
 import Warranty from '@/components/landing/warranty';
@@ -27,7 +26,6 @@ export default function Home() {
         <WhyForever />
         <HowItWorks />
         <HowToBuyVideo />
-        <Ingredients />
         <Kits />
         <HowToBuy />
         <Warranty />
