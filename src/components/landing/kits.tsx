@@ -8,7 +8,7 @@ const kits = [
   {
     id: 'kit-1-bottle',
     imageUrl: 'https://i.imgur.com/wf7ICc3.png',
-    title: 'Leve 1 Litro',
+    title: 'Leve 1 unidade do suco aloe e vera',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '155,00',
     installments: '3x de R$ 51,67',
@@ -17,7 +17,7 @@ const kits = [
   {
     id: 'kit-2-bottles',
     imageUrl: 'https://i.imgur.com/ZY979sI.png',
-    title: 'Leve 2 Litros',
+    title: 'Leve 2 unidades do suco aloe e vera',
     description: 'Tratamento para 2 meses com desconto especial.',
     price: '269,00',
     installments: '5x de R$ 53,80',
@@ -26,7 +26,7 @@ const kits = [
   {
     id: 'kit-5-bottles',
     imageUrl: 'https://i.imgur.com/A2x9jhv.png',
-    title: 'Leve 3 Litros',
+    title: 'Leve 3 unidades do suco aloe e vera',
     description: 'O melhor custo-benefício para um tratamento completo e resultados incríveis.',
     price: '389,00',
     installments: '6x de R$ 64,83',
