@@ -2,6 +2,7 @@ import Hero from '@/components/landing/hero';
 import TextCarousel from '@/components/landing/text-carousel';
 import Benefits from '@/components/landing/benefits';
 import WhyForever from '@/components/landing/why-forever';
+import ProductDetails from '@/components/landing/product-details';
 import HowItWorks from '@/components/landing/how-it-works';
 import HowToBuyVideo from '@/components/landing/how-to-buy-video';
 import Kits from '@/components/landing/kits';
@@ -24,6 +25,7 @@ export default function Home() {
         <TextCarousel />
         <Benefits />
         <WhyForever />
+        <ProductDetails />
         <HowItWorks />
         <HowToBuyVideo />
         <Kits />
