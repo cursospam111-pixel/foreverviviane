@@ -29,12 +29,12 @@ export default function Home() {
         <ProductDetails />
         <HowItWorks />
         <HowToBuyVideo />
+        <Curiosities />
         <Kits />
         <HowToBuy />
         <Warranty />
         <About />
         <ProvenResults />
-        <Curiosities />
         <FormulaHighlights />
         <WhyChoose />
         <Faq />
