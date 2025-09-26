@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative order-1 flex h-full min-h-[350px] items-center justify-center md:order-2 md:min-h-[500px]">
-            <div className="absolute h-80 w-80 rounded-full bg-primary/50 blur-3xl md:bg-primary/30 md:h-[450px] md:w-[450px]" />
+            <div className="absolute h-80 w-80 rounded-full bg-primary/70 blur-3xl md:bg-primary/50 md:h-[450px] md:w-[450px]" />
             
               <Image
                 src="https://digitalvante.com/wp-content/uploads/2025/09/width_1080-6.png"
