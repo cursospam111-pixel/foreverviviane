@@ -25,8 +25,11 @@ const Curiosities = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            <span className="text-primary">Curiosidades</span>
+            Curiosidades sobre o <span className="text-primary">Aloe Vera Gel</span>
           </h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Benefícios e Recomendações
+          </p>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {curiosities.map((curiosity, index) => (
