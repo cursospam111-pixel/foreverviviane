@@ -13,7 +13,14 @@ const Hero = () => {
 
   return (
     <section className="relative overflow-hidden bg-black pt-12 pb-20 md:pt-24">
-      <div className="container mx-auto px-4 md:px-6">
+       <Image
+        src="https://images.unsplash.com/photo-1596162327598-e42a983b9c24?q=80&w=2070&auto=format&fit=crop"
+        alt="Aloe vera background"
+        fill
+        className="absolute inset-0 object-cover opacity-10 filter grayscale"
+        priority
+      />
+      <div className="container relative mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative order-1 flex h-full min-h-[350px] items-center justify-center md:order-2 md:min-h-[500px]">
             <div className="absolute h-80 w-80 rounded-full bg-primary/50 blur-3xl md:bg-primary/30 md:h-[450px] md:w-[450px]" />
