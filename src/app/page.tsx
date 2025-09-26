@@ -38,7 +38,6 @@ export default function Home() {
         <FormulaHighlights />
         <WhyChoose />
         <Faq />
-        <QualitySeals />
       </main>
       <Footer />
       <WhatsAppButton />
