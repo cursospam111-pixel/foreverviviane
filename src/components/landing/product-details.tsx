@@ -9,7 +9,7 @@ const ProductDetails = () => {
             <Image
               src="https://imgur.com/XfS6lp4.png"
               alt="Garrafa de Forever Aloe Vera Gel com um copo"
-              width={500}
+              width={600}
               height={500}
               className="rounded-2xl object-cover shadow-2xl"
               data-ai-hint="aloe vera drink"
