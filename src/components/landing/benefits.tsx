@@ -27,7 +27,7 @@ const Benefits = () => {
         src="https://imgur.com/WEiW9bz.png"
         alt="Aloe vera background"
         fill
-        className="absolute inset-0 object-cover opacity-10"
+        className="absolute inset-0 object-cover opacity-20"
       />
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
@@ -38,7 +38,7 @@ const Benefits = () => {
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="flex flex-col items-center rounded-2xl border-border bg-card p-8 text-center shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-primary/20">
+            <Card key={index} className="flex flex-col items-center rounded-2xl border-border bg-card/80 p-8 text-center shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-primary/20">
               <CardHeader>{benefit.icon}</CardHeader>
               <CardContent>
                 <CardTitle className="mb-2 text-2xl font-bold">{benefit.title}</CardTitle>
