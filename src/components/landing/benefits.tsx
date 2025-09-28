@@ -24,10 +24,10 @@ const Benefits = () => {
   return (
     <section className="relative bg-black py-20 sm:py-28">
       <Image
-        src="https://imgur.com/WEiW9bz.png"
+        src="https://i.imgur.com/WEiW9bz.png"
         alt="Aloe vera background"
         fill
-        className="absolute inset-0 object-cover opacity-20"
+        className="absolute inset-0 object-cover opacity-30"
       />
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
