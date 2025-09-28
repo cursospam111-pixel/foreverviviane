@@ -3,7 +3,7 @@ import { ShieldCheck } from 'lucide-react';
 
 const Warranty = () => {
   return (
-    <section className="bg-black py-20 sm:py-28">
+    <section className="bg-black pt-10 pb-20 sm:pt-14 sm:pb-28">
       <div className="container mx-auto px-4 md:px-6">
         <div className="rounded-2xl bg-card p-12 text-center">
             <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full border-4 border-primary bg-black md:h-32 md:w-32">
