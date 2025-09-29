@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { HeartPulse, ShieldCheck, Sparkles } from 'lucide-react';
 
@@ -22,6 +23,12 @@ const benefits = [
 const Benefits = () => {
   return (
     <section className="relative bg-black py-20 sm:py-28">
+        <Image
+          src="https://i.imgur.com/WEiW9bz.png"
+          alt="fundo de aloe vera"
+          fill
+          className="absolute inset-0 object-cover opacity-20 filter"
+        />
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
