@@ -53,7 +53,7 @@ const Hero = () => {
             >
               <a href="#kits">QUERO MEU ALOE VERA GEL</a>
             </Button>
-            <div className="mt-12 grid w-full grid-cols-2 gap-8 px-8 sm:grid-cols-4 sm:gap-6 md:px-0">
+            <div className="mt-12 grid w-full grid-cols-2 gap-x-4 gap-y-8 px-4 sm:grid-cols-4 sm:gap-x-6 md:px-0">
               {badges.map((badge, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="text-primary">{badge.icon}</div>
