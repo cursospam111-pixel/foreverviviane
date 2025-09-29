@@ -22,9 +22,10 @@ const curiosities = [
 const Curiosities = () => {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat py-20 sm:py-28"
+      className="relative bg-cover bg-center bg-no-repeat bg-fixed py-20 sm:py-28"
       style={{ backgroundImage: "url('https://i.imgur.com/soNCJHR.jpg')" }}
     >
+      <div className="absolute inset-0 bg-black/50" />
       <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
