@@ -24,7 +24,7 @@ const Benefits = () => {
   return (
     <section className="relative bg-black py-20 sm:py-28">
       <Image
-        src="https://i.imgur.com/WEiW9bz.png"
+        src="https://imgur.com/WEiW9bz.png"
         alt="Aloe vera background"
         fill
         className="absolute inset-0 object-cover opacity-30"
