@@ -26,19 +26,23 @@ const differentials = [
 
 const WhyChoose = () => {
   return (
-    <section className="bg-black py-20 sm:py-28">
-      <div className="container mx-auto px-4 md:px-6">
+    <section
+      className="relative bg-cover bg-center bg-no-repeat bg-fixed py-20 sm:py-28"
+      style={{ backgroundImage: "url('https://i.imgur.com/iFTFf4N.jpg')" }}
+    >
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
             Por que escolher o <span className="text-primary">Forever Aloe Vera Gel</span>?
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg text-white/80">
             Descubra os diferenciais que tornam nossa fórmula a melhor escolha para sua saúde e bem-estar.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {differentials.map((item) => (
-            <Card key={item.title} className="rounded-2xl border-border bg-card p-6 text-center shadow-lg">
+            <Card key={item.title} className="rounded-2xl border-border bg-card/80 p-6 text-center shadow-lg backdrop-blur-sm">
               <CardHeader className="items-center">{item.icon}</CardHeader>
               <CardContent>
                 <CardTitle className="mb-2 text-xl font-bold">{item.title}</CardTitle>
