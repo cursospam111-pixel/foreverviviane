@@ -33,12 +33,12 @@ const TextCarousel = () => {
       >
         <CarouselContent className="-ml-2 flex items-center">
           {messages.map((message, index) => (
-            <CarouselItem key={index} className="pl-4 basis-auto">
-              <div className="p-1 flex items-center gap-4">
-                <p className="font-bold text-primary-foreground text-center font-headline whitespace-nowrap">
+            <CarouselItem key={index} className="pl-4 basis-full sm:basis-auto">
+              <div className="p-1 flex items-center justify-center gap-4">
+                <p className="font-bold text-primary-foreground text-center font-headline whitespace-nowrap text-xs sm:text-base">
                   {message}
                 </p>
-                {index < messages.length -1 && <Leaf className="h-5 w-5 text-primary-foreground" />}
+                {index < messages.length -1 && <Leaf className="h-5 w-5 text-primary-foreground hidden sm:block" />}
               </div>
             </CarouselItem>
           ))}

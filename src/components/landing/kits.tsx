@@ -73,7 +73,7 @@ const Kits = () => {
                       />
                     </div>
                   )}
-                  <CardTitle className="pt-4 text-center text-2xl font-bold">{kit.title}</CardTitle>
+                  <CardTitle className="pt-4 text-center text-xl sm:text-2xl font-bold">{kit.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow text-center">
                   <CardDescription>{kit.description}</CardDescription>
@@ -90,11 +90,11 @@ const Kits = () => {
           })}
         </div>
 
-        <div className="mt-16 grid grid-cols-2 gap-8 rounded-xl bg-black p-8 sm:grid-cols-4">
+        <div className="mt-16 grid grid-cols-2 gap-y-8 gap-x-4 rounded-xl bg-black p-8 sm:grid-cols-4">
             {seals.map((seal, index) => (
                 <div key={index} className="flex flex-col items-center justify-center gap-2 text-center">
                     <div className="text-primary">{seal.icon}</div>
-                    <span className="text-sm font-bold text-white">{seal.text}</span>
+                    <span className="text-xs sm:text-sm font-bold text-white">{seal.text}</span>
                 </div>
             ))}
         </div>

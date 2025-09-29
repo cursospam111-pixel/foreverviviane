@@ -32,7 +32,7 @@ const Hero = () => {
                 height={380}
                 priority
                 data-ai-hint="aloe vera bottle"
-                className="z-10 h-[380px] w-[300px] object-contain drop-shadow-2xl md:h-[430px] md:w-[350px]"
+                className="z-10 h-auto w-full max-w-[280px] object-contain drop-shadow-2xl sm:max-w-[300px] md:max-w-[350px]"
               />
             
           </div>
@@ -47,7 +47,7 @@ const Hero = () => {
               Descubra o segredo para uma vida mais saudável com Forever Aloe Vera Gel.
             </p>
             <Button
-              className="mt-8 rounded-full animated-gradient px-10 py-8 text-xl font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50"
+              className="mt-8 rounded-full animated-gradient px-8 py-7 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50 sm:px-10 sm:py-8 sm:text-xl"
               size="lg"
               asChild
             >
@@ -55,11 +55,11 @@ const Hero = () => {
             </Button>
             <div className="mt-12 grid w-full grid-cols-2 gap-x-4 gap-y-8 px-4 sm:grid-cols-4 sm:gap-x-6 md:px-0">
               {badges.map((badge, index) => (
-                <div key={index} className="flex items-center gap-3">
+                <div key={index} className="flex items-center gap-2 sm:gap-3">
                   <div className="text-primary">{badge.icon}</div>
                   <div className="flex flex-col">
-                    <span className="text-sm font-bold text-primary sm:text-xs">{badge.label}</span>
-                    <span className="text-base text-white sm:text-xs">{badge.text}</span>
+                    <span className="text-xs font-bold text-primary">{badge.label}</span>
+                    <span className="text-xs text-white">{badge.text}</span>
                   </div>
                 </div>
               ))}
