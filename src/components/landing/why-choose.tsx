@@ -27,7 +27,7 @@ const differentials = [
 const WhyChoose = () => {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat bg-fixed py-20 sm:py-28"
+      className="relative bg-cover bg-center bg-no-repeat py-20 sm:py-28"
       style={{ backgroundImage: "url('https://i.imgur.com/iFTFf4N.jpg')" }}
     >
       <div className="container relative mx-auto px-4 md:px-6">
