@@ -41,7 +41,7 @@ const WhyChoose = () => {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {differentials.map((item) => (
-            <Card key={item.title} className="rounded-2xl border-border bg-card/80 p-6 text-center shadow-lg backdrop-blur-sm">
+            <Card key={item.title} className="rounded-2xl border-border bg-card/80 p-6 text-center shadow-lg backdrop-blur-xl">
               <CardHeader className="items-center">{item.icon}</CardHeader>
               <CardContent>
                 <CardTitle className="mb-2 text-xl font-bold">{item.title}</CardTitle>
