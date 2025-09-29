@@ -55,7 +55,7 @@ const Hero = () => {
             </Button>
             <div className="mt-12 grid w-full grid-cols-2 gap-8 px-8 sm:grid-cols-4 sm:gap-6 md:px-0">
               {badges.map((badge, index) => (
-                <div key={index} className="flex items-center gap-2">
+                <div key={index} className="flex items-center gap-3">
                   <div className="text-primary">{badge.icon}</div>
                   <div className="flex flex-col">
                     <span className="text-sm font-bold text-primary sm:text-xs">{badge.label}</span>
