@@ -23,7 +23,7 @@ const benefits = [
 const Benefits = () => {
   return (
     <section 
-      className="relative bg-black py-20 sm:py-28 bg-cover bg-center bg-no-repeat bg-fixed"
+      className="relative py-20 sm:py-28 bg-cover bg-center bg-no-repeat bg-fixed"
       style={{ backgroundImage: "url('https://i.imgur.com/KAcQybG.jpg')" }}
     >
       
