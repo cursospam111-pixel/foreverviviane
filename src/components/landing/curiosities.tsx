@@ -21,19 +21,22 @@ const curiosities = [
 
 const Curiosities = () => {
   return (
-    <section className="bg-card py-20 sm:py-28">
-      <div className="container mx-auto px-4 md:px-6">
+    <section
+      className="relative bg-cover bg-center bg-no-repeat py-20 sm:py-28"
+      style={{ backgroundImage: "url('https://i.imgur.com/soNCJHR.jpg')" }}
+    >
+      <div className="container relative mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
             Curiosidades sobre o <span className="text-primary">Aloe Vera Gel</span>
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg text-white/80">
             Benefícios e Recomendações
           </p>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {curiosities.map((curiosity, index) => (
-            <Card key={index} className="flex flex-col items-center rounded-2xl border-border bg-black p-8 text-center shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-primary/20">
+            <Card key={index} className="flex flex-col items-center rounded-2xl border-border bg-card/80 p-8 text-center shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-primary/20">
               <CardHeader>{curiosity.icon}</CardHeader>
               <CardContent>
                 <CardTitle className="mb-2 text-2xl font-bold">{curiosity.title}</CardTitle>
