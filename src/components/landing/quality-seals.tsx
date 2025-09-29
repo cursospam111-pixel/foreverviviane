@@ -52,10 +52,10 @@ const QualitySeals = () => {
           </p>
         </div>
         <div className="mt-16 grid items-center gap-12 lg:grid-cols-2">
-            <div className="grid grid-cols-2 gap-x-8 gap-y-10">
+            <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3">
                 {seals.map((seal) => (
                     <div key={seal.name} className="flex flex-col items-center gap-3 text-center">
-                        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-card text-primary">
+                        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-card text-primary transition-all hover:bg-primary hover:text-primary-foreground">
                             {seal.logo}
                         </div>
                         <p className="font-semibold text-white">{seal.name}</p>
