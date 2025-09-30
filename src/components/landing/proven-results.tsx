@@ -44,13 +44,13 @@ const ProvenResults = () => {
                 </div>
             </div>
             <div className="relative flex items-center justify-center">
-                <div className="absolute h-80 w-80 rounded-full bg-primary/30 blur-3xl" />
+                <div className="absolute h-96 w-96 rounded-full bg-primary/30 blur-3xl" />
                 <Image
                     src="https://i.imgur.com/S3fF7wj.png"
                     alt="Resultados comprovados do Aloe Vera"
-                    width={500}
-                    height={500}
-                    className="relative z-10 rounded-2xl object-cover shadow-2xl"
+                    width={550}
+                    height={550}
+                    className="relative z-10 w-full max-w-md rounded-2xl object-cover shadow-2xl"
                     data-ai-hint="woman smiling"
                 />
             </div>
