@@ -28,7 +28,7 @@ const ProvenResults = () => {
             <div>
                 <div className="max-w-3xl">
                     <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-                        Resultados Comprovados — <span className="text-primary">Benefícios Importantes</span>
+                        Resultados Comprovados <span className="text-primary">Benefícios Importantes</span>
                     </h2>
                 </div>
                 <div className="mt-12 grid max-w-4xl gap-x-8 gap-y-10">
