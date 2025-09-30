@@ -9,7 +9,7 @@ const WhoAmI = () => {
           <div className="relative order-2 flex items-center justify-center md:order-1">
             <div className="absolute h-80 w-80 rounded-full bg-primary/30 blur-3xl" />
             <Image
-              src="https://picsum.photos/seed/viviane/500/500"
+              src="https://i.imgur.com/LZT6aiB.png"
               alt="Viviane, sua consultora de bem-estar"
               width={400}
               height={400}
