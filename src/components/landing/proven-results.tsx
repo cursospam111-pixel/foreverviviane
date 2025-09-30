@@ -48,8 +48,8 @@ const ProvenResults = () => {
                 <Image
                     src="https://i.imgur.com/S3fF7wj.png"
                     alt="Resultados comprovados do Aloe Vera"
-                    width={550}
-                    height={550}
+                    width={750}
+                    height={750}
                     className="relative z-10 w-full max-w-md rounded-2xl object-cover shadow-2xl"
                     data-ai-hint="woman smiling"
                 />
