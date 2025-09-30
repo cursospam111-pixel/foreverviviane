@@ -44,7 +44,7 @@ const ProvenResults = () => {
                 </div>
             </div>
             <div className="relative flex items-center justify-center">
-                <div className="absolute h-96 w-96 rounded-full bg-primary/30 blur-3xl" />
+                
                 <Image
                     src="https://i.imgur.com/S3fF7wj.png"
                     alt="Resultados comprovados do Aloe Vera"
