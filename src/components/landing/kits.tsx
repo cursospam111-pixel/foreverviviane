@@ -12,7 +12,7 @@ const kits = [
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '169,90',
     installments: '3x de R$ 56,63',
-    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/T4QQSSVWMI',
     bestValue: false,
   },
   {
