@@ -32,7 +32,7 @@ const kits = [
     description: 'O melhor custo-benefício para resultados incríveis.',
     price: '389,00',
     installments: '6x de R$ 64,83',
-    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/1B9DRICAEM',
     bestValue: false,
   },
 ];
