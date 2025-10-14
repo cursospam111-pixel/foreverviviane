@@ -12,6 +12,7 @@ const kits = [
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '169,90',
     installments: '3x de R$ 56,63',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
     bestValue: false,
   },
   {
@@ -21,6 +22,7 @@ const kits = [
     description: 'Aproveite o dobro de benefícios com um desconto especial.',
     price: '269,00',
     installments: '5x de R$ 53,80',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
     bestValue: true,
   },
   {
@@ -30,6 +32,7 @@ const kits = [
     description: 'O melhor custo-benefício para resultados incríveis.',
     price: '389,00',
     installments: '6x de R$ 64,83',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
     bestValue: false,
   },
 ];
@@ -81,8 +84,10 @@ const Kits = () => {
                   <p className="text-primary">{kit.installments}</p>
                 </CardContent>
                 <CardFooter className="flex-col">
-                  <Button className="w-full rounded-xl bg-primary py-6 text-lg font-bold text-primary-foreground shadow-lg transition-transform duration-300 hover:scale-105 hover:bg-[#e0b112]">
-                    Comprar agora
+                  <Button asChild className="w-full rounded-xl bg-primary py-6 text-lg font-bold text-primary-foreground shadow-lg transition-transform duration-300 hover:scale-105 hover:bg-[#e0b112]">
+                    <a href={kit.checkoutUrl} target="_blank" rel="noopener noreferrer">
+                      Comprar agora
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>
