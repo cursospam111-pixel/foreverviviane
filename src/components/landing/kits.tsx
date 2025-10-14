@@ -10,8 +10,8 @@ const kits = [
     imageUrl: 'https://i.imgur.com/wf7ICc3.png',
     title: 'Leve 1 unidade do suco aloe e vera',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
-    price: '155,00',
-    installments: '3x de R$ 51,67',
+    price: '169,90',
+    installments: '3x de R$ 56,63',
     bestValue: false,
   },
   {
