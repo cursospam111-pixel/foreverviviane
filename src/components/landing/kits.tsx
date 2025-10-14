@@ -22,7 +22,7 @@ const kits = [
     description: 'Aproveite o dobro de benefícios com um desconto especial.',
     price: '319,80',
     installments: '6x de R$ 53,30',
-    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/checkout/address',
+    checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/BEK9WCQQ6R',
     bestValue: true,
   },
   {
