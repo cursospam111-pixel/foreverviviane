@@ -11,7 +11,7 @@ const kits = [
     title: 'Leve 1 unidade do suco aloe e vera',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
     price: '169,90',
-    installments: '3x de R$ 56,63',
+    installments: '12x de 17,90',
     checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/T4QQSSVWMI',
     bestValue: false,
   },
