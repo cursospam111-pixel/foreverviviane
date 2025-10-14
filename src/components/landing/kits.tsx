@@ -31,7 +31,7 @@ const kits = [
     title: 'Leve 3 unidades do suco aloe e vera',
     description: 'O melhor custo-benefício para resultados incríveis.',
     price: '467,70',
-    installments: '6x de R$ 77,95',
+    installments: '12x de 47,59',
     checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/1B9DRICAEM',
     bestValue: false,
   },
