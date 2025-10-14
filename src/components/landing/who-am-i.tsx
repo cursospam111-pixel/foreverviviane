@@ -32,7 +32,7 @@ const WhoAmI = () => {
               size="lg"
               asChild
             >
-              <a href="#kits">Falar com a Viviane</a>
+              <a href="https://wa.me/55992224104" target="_blank" rel="noopener noreferrer">Falar com a Viviane</a>
             </Button>
           </div>
         </div>
