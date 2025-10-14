@@ -57,7 +57,7 @@ const WhyChoose = () => {
               size="lg"
               asChild
             >
-              <a href="https://wa.me/55992224104" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/55992224104?text=Quero%20ser%20uma%20revendedora%20Forever" target="_blank" rel="noopener noreferrer">
                 Quero ser uma revendedora Forever
               </a>
             </Button>
