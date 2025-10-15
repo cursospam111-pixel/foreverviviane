@@ -20,6 +20,7 @@ const kits = [
     imageUrl: 'https://i.imgur.com/ZY979sI.png',
     title: 'Leve 2 unidades do suco aloe e vera',
     description: 'Aproveite o dobro de benefícios com um desconto especial.',
+    oldPrice: '339,80',
     price: '319,80',
     installments: '12x de 32,54',
     checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/BEK9WCQQ6R',
@@ -80,7 +81,12 @@ const Kits = () => {
                 </CardHeader>
                 <CardContent className="flex-grow text-center">
                   <CardDescription>{kit.description}</CardDescription>
-                  <p className="mt-4 text-3xl font-bold text-white">R$ {kit.price}</p>
+                  {kit.oldPrice && (
+                    <p className="mt-4 text-lg text-muted-foreground line-through">
+                      De R$ {kit.oldPrice}
+                    </p>
+                  )}
+                  <p className={`text-3xl font-bold text-white ${kit.oldPrice ? 'mt-1' : 'mt-4'}`}>R$ {kit.price}</p>
                   <p className="text-primary">{kit.installments}</p>
                 </CardContent>
                 <CardFooter className="flex-col">
