@@ -1,5 +1,6 @@
 import { CheckCircle } from 'lucide-react';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
 
 const results = [
   {
@@ -43,7 +44,7 @@ const ProvenResults = () => {
                 ))}
                 </div>
             </div>
-            <div className="relative flex items-center justify-center">
+            <div className="flex flex-col items-center justify-center gap-8">
                 
                 <Image
                     src="https://i.imgur.com/S3fF7wj.png"
@@ -53,6 +54,15 @@ const ProvenResults = () => {
                     className="relative z-10 w-full max-w-md rounded-2xl object-cover shadow-2xl"
                     data-ai-hint="woman smiling"
                 />
+                <Button
+                    className="rounded-full animated-gradient px-8 py-7 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50 sm:px-10 sm:py-8 sm:text-xl"
+                    size="lg"
+                    asChild
+                    >
+                    <a href="#kits">
+                        QUERO MEU ALOE VERA GEL
+                    </a>
+                </Button>
             </div>
         </div>
       </div>
