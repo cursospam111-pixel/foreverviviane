@@ -60,7 +60,7 @@ const ProvenResults = () => {
                     asChild
                     >
                     <a href="#kits">
-                        QUERO MEU ALOE VERA GEL
+                        Faça parte da equipe Forever
                     </a>
                 </Button>
             </div>
