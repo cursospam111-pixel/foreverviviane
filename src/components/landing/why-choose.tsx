@@ -51,17 +51,6 @@ const WhyChoose = () => {
             </Card>
           ))}
         </div>
-        <div className="mt-16 text-center">
-            <Button
-              className="rounded-full animated-gradient px-8 py-7 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50 sm:px-10 sm:py-8 sm:text-xl"
-              size="lg"
-              asChild
-            >
-              <a href="https://wa.me/55992224104?text=Quero%20ser%20uma%20revendedora%20Forever" target="_blank" rel="noopener noreferrer">
-                Quero ser uma revendedora Forever
-              </a>
-            </Button>
-        </div>
       </div>
     </section>
   );
