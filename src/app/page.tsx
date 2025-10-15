@@ -8,7 +8,6 @@ import WhoAmI from '@/components/landing/who-am-i';
 import HowToBuyVideo from '@/components/landing/how-to-buy-video';
 import Kits from '@/components/landing/kits';
 import HowToBuy from '@/components/landing/how-to-buy';
-import About from '@/components/landing/about';
 import ProvenResults from '@/components/landing/proven-results';
 import Curiosities from '@/components/landing/curiosities';
 import FormulaHighlights from '@/components/landing/formula-highlights';
@@ -33,7 +32,6 @@ export default function Home() {
         <Curiosities />
         <Kits />
         <HowToBuy />
-        <About />
         <ProvenResults />
         <FormulaHighlights />
         <WhyChoose />
