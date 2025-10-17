@@ -60,7 +60,7 @@ const ProvenResults = () => {
                         size="lg"
                         asChild
                         >
-                        <a href="https://wa.me/55992224104?text=Quero%20tamb%C3%A9m%20fazer%20parte%20da%20equipe%20Forever" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.foreverliving.com.br/Cadastro/550000230848" target="_blank" rel="noopener noreferrer">
                             Faça parte da equipe Forever
                         </a>
                     </Button>
