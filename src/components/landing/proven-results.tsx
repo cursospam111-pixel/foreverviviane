@@ -44,7 +44,7 @@ const ProvenResults = () => {
                 ))}
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-8">
+            <div className="flex flex-col items-center justify-center gap-4">
                 
                 <Image
                     src="https://i.imgur.com/S3fF7wj.png"
@@ -54,15 +54,25 @@ const ProvenResults = () => {
                     className="relative z-10 w-full max-w-md rounded-2xl object-cover shadow-2xl"
                     data-ai-hint="woman smiling"
                 />
-                <Button
-                    className="rounded-full animated-gradient px-8 py-7 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50 sm:px-10 sm:py-8 sm:text-xl"
-                    size="lg"
-                    asChild
-                    >
-                    <a href="https://wa.me/55992224104?text=Quero%20tamb%C3%A9m%20fazer%20parte%20da%20equipe%20Forever" target="_blank" rel="noopener noreferrer">
-                        Faça parte da equipe Forever
-                    </a>
-                </Button>
+                <div className="flex flex-col items-center gap-4 w-full max-w-sm">
+                    <Button
+                        className="w-full rounded-full animated-gradient px-8 py-7 text-lg font-bold text-primary-foreground shadow-lg shadow-primary/20 transition-transform duration-300 hover:scale-105 focus-visible:ring-white/50 sm:px-10 sm:py-8 sm:text-xl"
+                        size="lg"
+                        asChild
+                        >
+                        <a href="https://wa.me/55992224104?text=Quero%20tamb%C3%A9m%20fazer%20parte%20da%20equipe%20Forever" target="_blank" rel="noopener noreferrer">
+                            Faça parte da equipe Forever
+                        </a>
+                    </Button>
+                    <Button
+                        variant="link"
+                        className="text-muted-foreground hover:text-white"
+                        asChild>
+                        <a href="https://wa.me/55992224104?text=Ol%C3%A1,%20tenho%20d%C3%BAvidas%20sobre%20o%20Aloe%20Vera%20Gel" target="_blank" rel="noopener noreferrer">
+                            Chamar no WhatsApp em caso de dúvidas
+                        </a>
+                    </Button>
+                </div>
             </div>
         </div>
       </div>
