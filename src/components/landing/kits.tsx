@@ -10,6 +10,7 @@ const kits = [
     imageUrl: 'https://i.imgur.com/wf7ICc3.png',
     title: 'Leve 1 unidade do suco aloe e vera',
     description: 'Experimente o poder do Forever Aloe Vera Gel. Ideal para começar.',
+    oldPrice: '189,90',
     price: '169,90',
     installments: '12x de 17,90',
     checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/T4QQSSVWMI',
