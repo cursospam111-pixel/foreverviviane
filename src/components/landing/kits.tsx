@@ -21,7 +21,7 @@ const kits = [
     imageUrl: 'https://i.imgur.com/ZY979sI.png',
     title: 'Leve 2 unidades do suco aloe e vera',
     description: 'Aproveite o dobro de benefícios com um desconto especial.',
-    oldPrice: '339,80',
+    oldPrice: '379,80',
     price: '319,80',
     installments: '12x de 32,54',
     checkoutUrl: 'https://forever-aloe-vera.pay.yampi.com.br/r/BEK9WCQQ6R',
