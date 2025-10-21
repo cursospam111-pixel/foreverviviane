@@ -83,7 +83,7 @@ const Kits = () => {
                 <CardContent className="flex-grow text-center">
                   <CardDescription>{kit.description}</CardDescription>
                   {kit.oldPrice && (
-                    <p className="mt-4 text-lg text-muted-foreground line-through">
+                    <p className="mt-4 text-lg text-muted-foreground line-through decoration-1">
                       De R$ {kit.oldPrice}
                     </p>
                   )}
