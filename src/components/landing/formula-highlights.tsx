@@ -3,14 +3,13 @@ import { Button } from '@/components/ui/button';
 const highlights = [
   { number: '99,7%', text: 'Puro Gel de Aloe Vera' },
   { number: '100%', text: 'Processado Asepticamente' },
-  { number: '0%', text: 'Adição de Conservantes' },
 ];
 
 const FormulaHighlights = () => {
   return (
     <section className="bg-card py-20 sm:py-28">
       <div className="container mx-auto px-4 text-center md:px-6">
-        <div className="grid gap-12 md:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-2">
           {highlights.map((highlight) => (
             <div key={highlight.text}>
               <p className="text-6xl font-bold text-primary md:text-7xl">{highlight.number}</p>
