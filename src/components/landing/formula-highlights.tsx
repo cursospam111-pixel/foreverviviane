@@ -21,9 +21,6 @@ const FormulaHighlights = () => {
         <p className="mx-auto mt-8 max-w-2xl text-muted-foreground">
           ...e muito mais, para uma vida mais saudável e um bem-estar incomparável.
         </p>
-        <Button variant="link" className="mt-4 text-lg text-primary" asChild>
-          <a href="#kits">Quero todos os benefícios</a>
-        </Button>
       </div>
     </section>
   );
